@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS-projeto.css">
+    <link rel="stylesheet" href="02-FormularioProjeto.css">
+    
+
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .img{
+            background-color:  #375000;
+            width: 10%;
+            margin-left: 20px;
+        }
+        body{
+            background-color:  #375000;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content:center;
+            padding: 60px;
+        }
+
+        #menuDrop{
+            margin-top: 2px;
+            display: none;
+            list-style: none;
+            border: 1px solid black;
+            background-color: #b0bfea;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        }
+
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            
+        }
+
+        .imgCard{
+            background-color:blue;
+            width: 265;
+            height: 175;
+            margin-left: 20px;
+            margin-top: 40px;
+            align-items: center;
+        }
+
+        .capa{
+            width: 100%;
+        }
+
+        .divPrincipal{
+            display: flex;
+            align-items: center;
+        }
+
+
+
+        .centralizar{
+                display: flex;
+                justify-content: center;
+        }
+
+        button{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:large;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            background-color: #b0bfea;
+            color: #000000;
+            align-items: end;
+
+            
+        }
+    </style>
+
+    <title>Produtos para casa</title>
+</head>
+<body>
+    <!-- logo e menu drop-->
+    <div class="dropdown">
+        <button id="btn" onclick="ativarMenu()">Menu</button>
+        
+        <ul id="menuDrop">
+            <li>
+                <a href="#" class="li">Cama</a> 
+            </li>
+
+            <li>
+                <a href="#" class="li">Mesa</a>
+            </li>
+
+            <li>
+                <a href="#" class="li">Banho</a>
+            </li>
+        </ul> 
+    </div>
+    
+    <div>
+        
+    </div>
+
+    <div class="divMaiorFotos">
+      
+        <div class="divPrincipal">
+    <img src="logo 2.png" alt="imagem de uma cama" class="img">
+    </div>
+
+    <div class="centralizar">
+        <img src="Capa.jpg" alt="pessoas correndo em casa"class="capa">
+    </div>
+
+
+    <div>
+        <img src="toalhas.jpg" alt="toalhas brancas" class="imgCard">
+        <img src="mesaaa.jpg" alt="talheres e pratos" class="imgCard">
+        <img src="cama.jpg" alt="cama" class="imgCard">
+
+    </div>
+
+    <form >
+           <h1>Entre em contato</h1>
+    
+            <label>
+              Nome:
+            <input type="Nome" id="nome" required>
+                </label>
+
+        <label>
+              Telefone:
+            <input type="telefone"  id="fone" required>
+                </label>
+
+                   <label>
+              E-mail:
+            <input type="email"  id="email" required>
+                </label>
+
+                   <label>
+              Duvida:
+            <input type="duvida"  id="duv" required>
+                </label>
+       
+
+        <button type="submit">Enviar</button>
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    const menuDrop = document.getElementById('menuDrop')
+
+    function ativarMenu(){
+        menuDrop.classList.toggle('ativo')
+    }
+
+    document.addEventListener('click', function(){})
+</script>
+
+
+</body>
+</html>
+
+ <!-- <div class="divMaiorFotos">
+      
+        <div class="divFotos">
+            <img src="cama.jpg" alt="imagem de uma cama">
+            <h2></h2>
+            <p></p>
+        </div>
+        
+        <div>
+            <img src="mesaaa.jpg" alt="imagem de talheres em uma mesa">
+            <h2></h2>
+            <p></p>
+        </div>
+
+        <div>
+            <img src="toalhas.jpg" alt="imagem de toalhas brancas">
+            <h2></h2>
+            <p></p>
+        </div> -->

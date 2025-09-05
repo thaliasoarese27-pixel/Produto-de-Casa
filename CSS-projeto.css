@@ -1,0 +1,88 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #375000;
+            display: flex;
+            justify-content:space-between;
+            padding: 20px;
+        }
+        #btn{
+            padding: 10px;
+            cursor: pointer;
+        }
+
+
+
+        #menuDrop{
+            margin-top: 2px;
+            display: none;
+            
+            list-style: none;
+            border: 1px solid rgb(255, 255, 255);
+            
+
+        }
+
+        #menuDrop.ativo{
+            display: block;
+            
+        }
+
+        form {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 34px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(red, green, blue, alpha);
+    width: 400px;
+    height: 350px;
+}
+       
+        
+        /* li{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:large;
+            background-color: #750000e5;
+          border-radius: 2px;
+            color: #ffffff;
+            text-align: center;
+        } */
+        
+        /* .li{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:large;
+            background-color: #750000e5;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 3px;            
+        } */
+        
+
+        /* .divMaiorFotos{
+            background-color: rgb(179, 0, 0);
+            width: 100wh;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-left: 15px;
+        } */
+
+        .Fotos{
+            background-color: rgb(206, 206, 206);
+           
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin-left: 15px
+        }
+        .capa{
+          width: 100vh;  
+        }
